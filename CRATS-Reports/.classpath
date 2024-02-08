@@ -6,10 +6,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/Cordys_Jars/itextpdf-5.5.9.jar"/>
-	<classpathentry kind="lib" path="D:/Cordys_Jars/poi-ooxml-3.15.jar"/>
-	<classpathentry kind="lib" path="D:/Cordys_Jars/poi-ooxml-schemas-3.15.jar"/>
-	<classpathentry kind="lib" path="D:/Cordys_Jars/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="lib" path="D:/Cordys_Jars/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="F:/Pdf Ppt Jar/itextpdf-5.5.9.jar"/>
+	<classpathentry kind="lib" path="F:/Pdf Ppt Jar/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="F:/Pdf Ppt Jar/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="F:/Pdf Ppt Jar/poi-ooxml-schemas-3.15.jar"/>
+	<classpathentry kind="lib" path="F:/Pdf Ppt Jar/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
