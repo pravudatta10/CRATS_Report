@@ -100,7 +100,7 @@ public class Cause_Verification {
 	}
 
 	public static void main(String[] args) throws FileNotFoundException, DocumentException {
-		String filePath = "C:\\Users\\kpds0\\Desktop\\CRTS OUTPUT\\Cause Verfication.pdf";
+		String filePath = "Pdf//Cause Verfication.pdf";
 		Document document = new Document();
 		document.setMargins(30, 30, 30, 30);
 		PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(filePath));

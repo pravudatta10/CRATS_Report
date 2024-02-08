@@ -136,7 +136,7 @@ public class CauseVerification {
 		CauseVerificationPPT(slide);
 		addDate(slide);
 		try (FileOutputStream out = new FileOutputStream(
-				"C:\\Users\\kpds0\\Desktop\\CRTS OUTPUT\\Cause Verification.pptx")) {
+				"Ppt\\Cause Verification.pptx")) {
 			slideShow.write(out);
 		}
 	}

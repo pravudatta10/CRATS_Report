@@ -1015,7 +1015,7 @@ public class CCR {
 		table.addCell(cell);
 
 		// row1
-		image = Image.getInstance("C:\\Users\\kpds0\\Desktop\\CRTS OUTPUT\\Logo.png");
+		image = Image.getInstance("Assets//Logo.png");
 		cell = new PdfPCell();
 		cell.setRowspan(3);
 		cell.setColspan(2);
@@ -1338,7 +1338,7 @@ public class CCR {
 		table.addCell(cell);
 
 		// Image at Merged Cells
-		image = Image.getInstance("C:\\Users\\kpds0\\Desktop\\Upload Things\\TestImage_1.jpeg");
+		image = Image.getInstance("C:\\Users\\kpds0\\Desktop\\Upload Things\\TestImage_2.jpeg");
 		image.scaleToFit(250, 130);
 		image.setAlignment(Element.ALIGN_CENTER);
 		cell = new PdfPCell();
@@ -1478,11 +1478,11 @@ public class CCR {
 		table4.setWidthPercentage(100);
 		boolean uncheck = false;
 		if (uncheck) {
-			image = Image.getInstance("C:\\Users\\kpds0\\Desktop\\CRTS OUTPUT\\Uncheck.png");
+			image = Image.getInstance("Assets//Uncheck.png");
 			image.scaleAbsoluteWidth(10f);
 			image.scaleAbsoluteHeight(5f);
 		} else {
-			image = Image.getInstance("C:\\Users\\kpds0\\Desktop\\CRTS OUTPUT\\Check.png");
+			image = Image.getInstance("Assets//Check.png");
 			image.scaleAbsoluteWidth(10f);
 			image.scaleAbsoluteHeight(5f);
 		}
@@ -1888,7 +1888,7 @@ public class CCR {
 	}
 
 	public static void main(String[] args) throws DocumentException, MalformedURLException, IOException {
-		String filePath = "C:\\Users\\kpds0\\Desktop\\CRTS OUTPUT\\CCR.pdf";
+		String filePath = "Pdf\\CCR.pdf";
 		Document document = new Document();
 		document.setMargins(20, 20, 30, 30);
 		PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(filePath));
