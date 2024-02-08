@@ -14,7 +14,7 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 
 public class Cause_Verification { 
-	static Font boldFontHeading = new Font(Font.FontFamily.HELVETICA, 12, Font.BOLD);
+	static Font boldFontHeading = new Font(Font.FontFamily.HELVETICA, 12, Font.BOLD);//
 	static Font normalBold = new Font(Font.FontFamily.HELVETICA, 9, Font.BOLD); 
 	static Font normalFont = new Font(Font.FontFamily.HELVETICA, 9);
 	static PdfPCell cell;
